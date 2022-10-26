@@ -1,0 +1,22 @@
+#include<bits/stdc++.h>
+using namespace std;
+class node{
+public:
+int data;
+node* next;
+};
+int main(){
+node* head=NULL;
+node* second=NULL;
+node* third=NULL;
+head=new node();
+second=new node();
+third=new node();
+node* head->data=1;
+head->next=second;
+node* second->data=2;
+second->third;
+node* third-> data=3;
+cout<<head<<endl;
+cout<<second<<endl;
+cout<<third;
